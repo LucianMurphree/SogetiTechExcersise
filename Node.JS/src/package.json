@@ -1,0 +1,23 @@
+{
+    "name": "test-api",
+    "author": "yournamehere",
+    "main": "src/app.js",
+    "scripts": {
+        "start": "node app.js",
+        "test": "jest --testTimeout=10000"
+    },
+    "jest": {
+        "testEnvironment": "node",
+        "coveragePathIgnorePatterns": [
+            "/node_modules/"
+        ]
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "4.17.1"
+    },
+    "devDependencies": {
+        "jest": "^26.4.0",
+        "supertest": "^4.0.2"
+    }
+}
